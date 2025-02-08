@@ -2,12 +2,12 @@
 
 ; start of code
 
-mov ax, 5
-mov bx, 10
+mov ax, 50
+mov bx, 20
 
 add ax, bx
 
-mov bx, 15
+mov bx, 25
 add ax, bx
 
 mov ax, 0x4c00
