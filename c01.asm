@@ -1,6 +1,7 @@
 [org 0x0100]
 
 ; start of code
+; Simple one to Add two Numbers (Registors)
 
 mov ax, 50
 mov bx, 20
