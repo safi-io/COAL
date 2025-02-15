@@ -11,12 +11,9 @@ mov cx, [num1 + 4]
 
 add ax, bx
 add ax, cx
-mov [num1 + 6], ax
+mov [num1 +6], ax
 
 mov ax, 0x4c00
 int 0x21
 
-num1: dw 5
-dw 10
-num3: dw 15
-num4: dw 0
+num1: dw 5, 10,15 ,0 ; global variables
