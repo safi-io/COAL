@@ -7,8 +7,8 @@ outerloop:
     add ax, [numbers+bx]
     add bx, 2
 
-    cmp bx, 8 ; if they have save value, ZF will be set
-    jne outerloop ; jump if not equal
+    cmp bx, 8       ; if they have save value, ZF will be set
+    jne outerloop   ; jump if not equal
 
 
 mov [result], ax
