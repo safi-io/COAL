@@ -1,0 +1,2 @@
+MOV AL, 7Fh
+NEG AL

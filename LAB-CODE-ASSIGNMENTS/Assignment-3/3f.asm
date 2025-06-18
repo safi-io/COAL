@@ -1,0 +1,3 @@
+MOV AL, 80h
+MOV BL, 0FFh
+ADD AL, BL

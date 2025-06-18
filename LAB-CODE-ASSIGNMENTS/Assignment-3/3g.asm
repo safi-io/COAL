@@ -1,0 +1,3 @@
+MOV AX, 0000h
+MOV BX, 8000h
+SUB AX, BX

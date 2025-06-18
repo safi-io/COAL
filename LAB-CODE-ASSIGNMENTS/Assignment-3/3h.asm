@@ -1,0 +1,2 @@
+MOV AX, 0001h
+NEG AX

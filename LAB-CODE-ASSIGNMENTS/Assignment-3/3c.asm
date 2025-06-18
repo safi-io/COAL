@@ -1,0 +1,2 @@
+MOV AL, 00h
+DEC AL

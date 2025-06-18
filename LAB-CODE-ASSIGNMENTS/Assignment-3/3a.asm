@@ -1,0 +1,3 @@
+MOV AX, 7FFFh
+MOV BX, 0001h
+ADD AX, BX

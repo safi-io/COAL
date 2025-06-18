@@ -1,0 +1,10 @@
+[org 0x100]
+
+mov dx, 0
+mov ax, 0xFFFF
+mov bx, 0xFFFB
+
+div bx
+
+mov ax, 0x4c00
+int 0x21

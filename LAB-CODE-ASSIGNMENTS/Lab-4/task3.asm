@@ -1,0 +1,16 @@
+[org 0x100]
+
+mov al, 0x80
+mov bl, 0xFF
+
+imul bl
+mov [result], ax
+
+mov al, 0x80
+mov bl, 0xFF
+mul bl
+
+mov ax, 0x4c00
+int 0x21
+
+result: dw 0

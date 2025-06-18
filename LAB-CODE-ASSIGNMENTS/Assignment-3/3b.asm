@@ -1,0 +1,3 @@
+MOV AL, 01h
+MOV BL, 0FFh
+SUB AL, BL
